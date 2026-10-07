@@ -1,0 +1,57 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>iceland_east_coastline</title>
+        <style>
+            .body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: black; 
+            }
+            #image_div {
+                position: relative; /* anchors the absolute text inside */
+                width: 80vw;
+                height: auto;
+                display: inline-block; /* Collapses container tightly around the image */
+            }
+            img {
+                width: 100%;
+                height: auto;
+                display: block; /* Removes unwanted bottom whitespace under the image */
+            }
+            #text_div {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                box-sizing: border-box; 
+                width: 50%; /* Spans the entire width of the photo for a clean edge-to-edge gradient */
+                padding: 40px 20px 20px 20px; /* Extra top padding to cushion the fade-in */
+                color: white;
+                font-family: sans-serif;
+
+                /* 45 degrees shifts the origin to the bottom-left corner */
+                background: linear-gradient(45deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 70%);
+
+                /* Kept the shadow as a secondary fallback for ultra-bright backgrounds */
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            }
+            #text_div p {
+                margin: 4px 0; /* Tightens the spacing between your metadata lines */
+            }
+        </style>
+    </head>
+    <body class="body">
+        <div id="image_div">
+            <img src="../images\original\iceland_east_coastline.jpg" alt="iceland_east_coastline">
+            <div id="text_div">
+                <p>Lat: 64.45</p>
+                <p>Lon: -14.51</p>
+                <p>2017-09-26 15:55</p>
+                <p>Temp: 52.2°F</p>
+            </div>
+        </div>
+    </body>
+    </html>

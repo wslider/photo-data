@@ -1,0 +1,3 @@
+,id,photo_path,datetime_taken,lat,lon,hour,temp_f,cloud_cover
+0,cf224d031ab7,images\original\iceland_east_coastline.jpg,2017-09-26 15:55:11,64.45,-14.51,16,52.2,100.0
+1,283a7a624ec1,images\original\iceland_west_coastline.jpg,2017-09-30 12:44:46,64.95,-23.42,13,48.3,98.0
