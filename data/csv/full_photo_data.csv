@@ -1,3 +1,4 @@
-id,photo_path,datetime_taken,lat,lon,hour,temp_f,cloud_cover,html_img_path
-cf224d031ab7,images\original\iceland_east_coastline.jpg,2017-09-26 15:55:11,64.45,-14.51,16,52.2,100.0,html_images/iceland_east_coastline.html
-283a7a624ec1,images\original\iceland_west_coastline.jpg,2017-09-30 12:44:46,64.95,-23.42,13,48.3,98.0,html_images/iceland_west_coastline.html
+id,photo_path,datetime_taken,lat,lon,hour,temp_f,cloud_cover,html_img_path,data_image_path
+f955f64821f6,images\original\20260209_180728.jpg,2026-02-09 18:07:28,38.29,-85.68,18,38.6,64.0,html_images\20260209_180728.html,images\png_data_images\20260209_180728_data_img.png
+aedb83a97f40,images\original\iceland_east_coastline.jpg,2017-09-26 15:55:11,64.45,-14.51,16,52.2,100.0,html_images\iceland_east_coastline.html,images\png_data_images\iceland_east_coastline_data_img.png
+92c936d01569,images\original\iceland_west_coastline.jpg,2017-09-30 12:44:46,64.95,-23.42,13,48.3,98.0,html_images\iceland_west_coastline.html,images\png_data_images\iceland_west_coastline_data_img.png
